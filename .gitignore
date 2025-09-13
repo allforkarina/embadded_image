@@ -1,0 +1,65 @@
+# Build directories
+build/
+obj/
+bin/
+dist/
+
+# Compiled object files
+*.o
+*.obj
+*.elf
+*.hex
+*.bin
+*.map
+*.disasm
+
+# Linker output
+*.ilk
+*.pdb
+*.exp
+*.lib
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Documentation output
+html/
+latex/
+Doxyfile
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# Static analysis output
+cppcheck-report.xml
+
+# Coverage files
+*.gcov
+*.gcda
+*.gcno
